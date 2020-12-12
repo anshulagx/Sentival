@@ -1,0 +1,14 @@
+rough simple idea about NLP
+https://www.pingshiuanchua.com/blog/post/simple-sentiment-analysis-python?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
+
+notebook for detailed NLP
+https://colab.research.google.com/drive/1vt4u8Hp-iQIRSFc633Outvl7t3R34-iJ?usp=sharing#scrollTo=ivQlf_e7ejNX
+
+our github repo
+https://github.com/anshulagx/Sentival
+
+a web based emotion analysis app
+https://text2emotion.herokuapp.com/
+
+details of the above app
+https://towardsdatascience.com/text2emotion-python-package-to-detect-emotions-from-textual-data-b2e7b7ce1153
