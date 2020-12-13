@@ -1,4 +1,4 @@
-var btn = document.createElement("BUTTON")
+var btn = document.createElement("BUTTON");
 var t = document.createTextNode("CLICK ME");
 btn.appendChild(t);
 //Appending to DOM
@@ -19,6 +19,8 @@ for (var i = 0; i < x.length; i++) {
   }
 }
 
+
+
 x[0].innerHTML = "<b style=\"color:green;\">aaa</b>" + paras[0];
 
 
@@ -31,6 +33,7 @@ var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
     if(xhr.readyState == 4 && this.status == 200)
      {
+        var res = this.responseText;
         x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+paras[0];
       //  alert(xhr.responseText);
     }
