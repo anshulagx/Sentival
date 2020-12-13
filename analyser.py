@@ -6,6 +6,7 @@ from hatesonar import Sonar
 
 def hateClassifier(str):
     response = requests.post("http://127.0.0.1:5000/api/analyze",
+    headers={"Content-Type": "application/json"},
                             json={"text": str}
                             )
     print(response.json())

@@ -31,11 +31,12 @@ var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
     if(xhr.readyState == 4 && this.status == 200)
      {
-        x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+this.responseText + paras[0];
+        x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+paras[0];
       //  alert(xhr.responseText);
     }
   };
 
+//xhr.open("POST", "http://127.0.0.1:5000/api/analyze", true);
 xhr.open("POST", "http://127.0.0.1:5001/check", true);
 xhr.setRequestHeader('Content-type', 'application/json');
 xhr.send(data);
