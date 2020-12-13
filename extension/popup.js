@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var indexEnd=j.issues[1].flags[i][1];
       var bodyy=j.issues[1].flags[i][3];
 
-      var firstname = ""+bodyy+"         (Position: "+indexStart+"-"+indexEnd+")";
+      var firstname = ""+bodyy+" (Position: "+indexStart+"-"+indexEnd+")";
       var entry = document.createElement('li');
       entry.appendChild(document.createTextNode(firstname));
       list.appendChild(entry);
