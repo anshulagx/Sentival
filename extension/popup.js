@@ -1,11 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var list = document.getElementById('evsa');
-  for (var i = 0; i < 10; i++) {
-    var firstname = "Hi: "+res;
-    var entry = document.createElement('li');
-    entry.appendChild(document.createTextNode(firstname));
-    list.appendChild(entry);
-  }
+  setTimeout(function() {
+    var list = document.getElementById('evsa');
+    for (var i = 0; i < 10; i++) {
+      console.log(rees);
+      var firstname = "Hi: "+rees;
+      var entry = document.createElement('li');
+      entry.appendChild(document.createTextNode(firstname));
+      list.appendChild(entry);
+    }
+  }, 5000);
+
 }, false);
 
 // var parass="I am writing to recommend NAME for the position of lab manager.";

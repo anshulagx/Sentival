@@ -1,12 +1,6 @@
-var btn = document.createElement("BUTTON");
-var t = document.createTextNode("CLICK ME");
-btn.appendChild(t);
-//Appending to DOM
-document.body.appendChild(btn);
-
 var x = document.getElementsByTagName('p');
-
-var paras = []
+var rees="";
+var paras = [];
 
 for (var i = 0; i < x.length; i++) {
   var str = x[i].innerText;
@@ -18,10 +12,8 @@ for (var i = 0; i < x.length; i++) {
     continue;
   }
 }
-
-
-
-x[0].innerHTML = "<b style=\"color:green;\">aaa</b>" + paras[0];
+//
+// x[0].innerHTML = "<b style=\"color:green;\">test0</b>" + x[0].innerText;
 
 
 var parass="I am writing to recommend NAME for the position of lab manager.";
@@ -29,16 +21,14 @@ var data = JSON.stringify({"text": parass});
 
 var xhr = new XMLHttpRequest();
 
-
 xhr.onreadystatechange = function() {
     if(xhr.readyState == 4 && this.status == 200)
      {
-        var res = this.responseText;
-        x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+paras[0];
+        rees = this.responseText;
+        x[1].innerHTML = "<b style=\"color:green;\">test2</b>"+rees+paras[0];
       //  alert(xhr.responseText);
     }
   };
-
 //xhr.open("POST", "http://127.0.0.1:5000/api/analyze", true);
 xhr.open("POST", "http://127.0.0.1:5001/check", true);
 xhr.setRequestHeader('Content-type', 'application/json');
