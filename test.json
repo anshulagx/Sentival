@@ -65,6 +65,6 @@
   [64, 143, 'Effort vs Accomplishment', "The word 'diligent' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0]
 ]
 [
-  [115, 126, 'hardworking', '', '', -1.0]
+  [115, 126, 'hardworking', '', '', -1.0] <--woman
 ]
-[]
+[]<--man
