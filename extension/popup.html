@@ -1,15 +1,19 @@
 <style>
   p {
     font-family: 'Rubik', sans-serif;
-    font-weight: bold;
     font-size: medium;
   }
   body {
-    width: 200px;
+    width: 400px;
     background: silver;
   }
   h1{
     font-family: 'Hammersmith One', sans-serif;
+  }
+  #maker{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
   }
 </style>
 <html>
@@ -21,8 +25,10 @@
   </head>
   <body>
     <h1>SENTIVAL</h1>
-    <p id="demo">Count: 0</p>
-    <button id="checkPage">Click me</button>
-    <p id="message">Made by Turing Point</p>
+    <h2>Effort vs Accomplishment</h2>
+    <input type="text" id="firstname">
+    <input type='button' onclick='changeText2()' value='Submit' />
+    <ol id="evsa"></ol>
+    <p id="maker">Made by Turing Point</p>
   </body>
 </html>
