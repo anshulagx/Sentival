@@ -1,0 +1,70 @@
+{
+  'classes': [{
+    'class_name': 'hate_speech',
+    'confidence': 0.07064631608338007
+  }, {
+    'class_name': 'offensive_language',
+    'confidence': 0.32001530146339346
+  }, {
+    'class_name': 'neither',
+    'confidence': 0.6093383824532264
+  }],
+  'text': 'I am writing to recommend NAME for the position of lab manager. As is required for this position, she is diligent, hardworking, and meticulous. She is willing and able to learn new things quickly. While she is pleasant and considerate, she is also willing to act firmly to enforce necessary procedures for research with human subjects. She will not be afraid to challenge any hint of cutting corners.',
+  'top_class': 'neither'
+} {
+  'issues': [{
+    'flags': [],
+    'name': 'Conditional Superlatives',
+    'summary': ''
+  }, {
+    'flags': [
+      [105, 113, 'Effort vs Accomplishment', "The word 'diligent' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+      [132, 142, 'Effort vs Accomplishment', "The word 'meticulous' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+      [151, 158, 'Effort vs Accomplishment', "The word 'willing' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+      [177, 180, 'Effort vs Accomplishment', "The word 'new' illustrates concrete accomplishment.", '', 0.5],
+      [248, 255, 'Effort vs Accomplishment', "The word 'willing' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+      [144, 196, 'Effort vs Accomplishment', "The word 'willing' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0],
+      [197, 335, 'Effort vs Accomplishment', "The word 'willing' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0],
+      [64, 143, 'Effort vs Accomplishment', "The word 'diligent' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0]
+    ],
+    'name': 'Effort vs Accomplishment',
+    'summary': ''
+  }, {
+    'flags': [
+      [115, 126, 'hardworking', '', '', -1.0]
+    ],
+    'name': '\nTerms biased towards women',
+    'summary': 'Depending on context, these words may be biased towards recruiting women'
+  }, {
+    'flags': [],
+    'name': 'Unnecessarily Gendered Words',
+    'summary': ''
+  }, {
+    'flags': [],
+    'name': 'Terms biased towards men:',
+    'summary': ''
+  }, {
+    'flags': [],
+    'name': 'Personal Life',
+    'summary': ''
+  }, {
+    'flags': [],
+    'name': 'Publications',
+    'summary': 'This document does not mention many publications. Try referencing more concrete publications or work byproducts, if possible.'
+  }],
+  'text': 'I am writing to recommend NAME for the position of lab manager. As is required for this position, she is diligent, hardworking, and meticulous. She is willing and able to learn new things quickly. While she is pleasant and considerate, she is also willing to act firmly to enforce necessary procedures for research with human subjects. She will not be afraid to challenge any hint of cutting corners.'
+}
+[
+  [105, 113, 'Effort vs Accomplishment', "The word 'diligent' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+  [132, 142, 'Effort vs Accomplishment', "The word 'meticulous' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+  [151, 158, 'Effort vs Accomplishment', "The word 'willing' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+  [177, 180, 'Effort vs Accomplishment', "The word 'new' illustrates concrete accomplishment.", '', 0.5],
+  [248, 255, 'Effort vs Accomplishment', "The word 'willing' tends to speak more about effort than concrete accomplishment.", 'Speak about concrete achievement rather than abstract effort.', -0.5],
+  [144, 196, 'Effort vs Accomplishment', "The word 'willing' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0],
+  [197, 335, 'Effort vs Accomplishment', "The word 'willing' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0],
+  [64, 143, 'Effort vs Accomplishment', "The word 'diligent' tends to speak about effort more than accomplishment.", 'Try replacing with phrasing that emphasizes accomplishment.', -1.0]
+]
+[
+  [115, 126, 'hardworking', '', '', -1.0]
+]
+[]
