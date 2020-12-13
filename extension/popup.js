@@ -8,20 +8,20 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 }, false);
 
-var parass="I am writing to recommend NAME for the position of lab manager.";
-
-var data = JSON.stringify({"text": parass});
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-    if(xhr.readyState == 4 && this.status == 200)
-     {
-        x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+this.responseText + paras[0];
-    }
-  };
-
-xhr.open("POST", "http://127.0.0.1:5001/check", true);
-xhr.setRequestHeader('Content-type', 'application/json');
-xhr.send(data);
+// var parass="I am writing to recommend NAME for the position of lab manager.";
+//
+// var data = JSON.stringify({"text": parass});
+// var xhr = new XMLHttpRequest();
+// xhr.onreadystatechange = function() {
+//     if(xhr.readyState == 4 && this.status == 200)
+//      {
+//         x[1].innerHTML = "<b style=\"color:green;\">aaaaaaatsea</b>"+this.responseText + paras[0];
+//     }
+//   };
+//
+// xhr.open("POST", "http://127.0.0.1:5001/check", true);
+// xhr.setRequestHeader('Content-type', 'application/json');
+// xhr.send(data);
 
 
 // var i = 1;
@@ -52,11 +52,11 @@ xhr.send(data);
 //     message.innerText = request.source;
 //   }
 // });
-
+//
 // function onWindowLoad() {
-
+//
 //   var message = document.querySelector('#message');
-
+//
 //   chrome.tabs.executeScript(null, {
 //     file: "getPagesSource.js"
 //   }, function() {
@@ -65,7 +65,7 @@ xhr.send(data);
 //       message.innerText = 'There was an error injecting script : \n' + chrome.runtime.lastError.message;
 //     }
 //   });
-
+//
 // }
-
+//
 // window.onload = onWindowLoad;
