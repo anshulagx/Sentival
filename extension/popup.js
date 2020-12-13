@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function() {
     var list = document.getElementById('evsa');
-    for (var i = 0; i < 10; i++) {
-      console.log(rees);
-      var firstname = "Hi: "+rees;
+
+    for (var i = 0; i < 4; i++) {
+      var j=JSON.parse(biasRes);
+      var indexStart=j.issues[1].flags[i][0];
+      var indexEnd=j.issues[1].flags[i][1];
+      var bodyy=j.issues[1].flags[i][3];
+
+      var firstname = ""+bodyy+"         (Position: "+indexStart+"-"+indexEnd+")";
       var entry = document.createElement('li');
       entry.appendChild(document.createTextNode(firstname));
       list.appendChild(entry);
