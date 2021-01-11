@@ -18,8 +18,8 @@ We had a tough time figuring out how to access and change the styles of the webp
 [Read More](https://devfolio.co/submissions/sentival)
 
 ## Contributors
-* Yajat Malhotra
-* Anshul Agarwala
-* Divit Agrawal
-* Priyashi Khandka
-* Ishita Chauhan
+* [Yajat Malhotra](https://github.com/iamyajat)
+* [Anshul Agarwala](https://github.com/anshulagx)
+* [Divit Agrawal](https://github.com/divit-agrawal)
+* [Priyashi Khandka](https://github.com/priyashikhandka)
+* [Ishita Chauhan](https://github.com/ishizzz)
